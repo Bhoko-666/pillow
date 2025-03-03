@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-top: 50px;
+            animation: glow 2s infinite alternate;
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #ff4d6d; }
+            to { text-shadow: 0 0 20px #ff4d6d, 0 0 30px #ff4d6d; }
+        }
+        .message {
+            font-size: 1.5rem;
+            margin: 50px auto;
+            padding: 20px;
+            width: 80%;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+        }
+        .footer {
+            font-size: 1.2rem;
+            margin-top: 50px;
+        }
+        .hearts {
+            font-size: 2rem;
+            margin-top: 20px;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">I Love You So Much ❤️</div>
+    
+    <div class="message">
+        Hey my cute pillow,
+        <br><br>
+        You're my comfort, my warmth, and my safe space. Every night, you hold me in your softness, and I feel loved. Thank you for being my silent listener and my cozy hug. I love you forever and always! 💕😘
+    </div>
+    
+    <div class="hearts">💕 💖 ❤️ 💘 💓</div>
+    
+    <div class="footer">This love is infinite, just like the stars above ✨<br><br>
+        I LOVE YOU TO THE MOON AND BACK! 💕🚀🌙
+    </div>
+    
+    <audio autoplay loop>
+        <source src="your-love-song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
